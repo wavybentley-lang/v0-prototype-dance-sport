@@ -24,12 +24,12 @@ const dancingScript = Dancing_Script({
   display: 'swap',
 })
 
-const siteUrl = 'https://v0-prototype-new-generation.vercel.app'
+const siteUrl = 'https://v0-prototype-dance-sport.vercel.app'
 const siteName = 'A.S.D. Dancesport Studio'
 const siteTitle = 'A.S.D. Dancesport Studio | Scuola di ballo a Pontecagnano Faiano'
 const siteDescription =
   'A.S.D. Dancesport Studio e una scuola di ballo a Pontecagnano Faiano con corsi di ballo di coppia, danze standard, danze latino americane e danza sportiva.'
-const ogImage = `${siteUrl}/newgeneration/ogimage.jpg`
+const ogImage = `${siteUrl}/dancesport/og.jpg`
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
