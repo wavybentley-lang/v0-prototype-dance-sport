@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, Map as MapIcon, Phone } from "lucide-react"
+import { Mail, Map as MapIcon, Phone } from "lucide-react"
 import { type ReactNode } from "react"
 
 import { brand, type NavLink } from "@/lib/site-config"
@@ -22,20 +22,7 @@ export function Footer({ navLinks }: { navLinks: NavLink[] }) {
               >
                 {brand.name}
               </span>
-              <span className="relative mt-3 self-center font-serif text-[1.05rem] leading-none text-white/80 italic md:self-end">
-                {brand.tagline}
-              </span>
             </a>
-            <div className="mt-6 flex gap-5">
-              <a href={brand.facebookHref} aria-label="Facebook" className="flex flex-col items-center gap-1 text-[#F7EFE5]/55 transition-colors duration-200 hover:text-white/80">
-                <Facebook size={24} />
-                <span className="font-sans text-xs text-[#F7EFE5]/55">Facebook</span>
-              </a>
-              <a href={brand.instagramHref} aria-label="Instagram" className="flex flex-col items-center gap-1 text-[#F7EFE5]/55 transition-colors duration-200 hover:text-white/80">
-                <Instagram size={24} />
-                <span className="font-sans text-xs text-[#F7EFE5]/55">Instagram</span>
-              </a>
-            </div>
           </div>
 
           <FooterColumn title="Link Rapidi">

@@ -45,23 +45,30 @@ export type TeamMember = {
 }
 
 export const brand = {
-  name: "A.S.D. Dancesport Studio",
-  shortName: "Dancesport Studio",
-  tagline: "Scuola di ballo diretta da Jessica Pellegrino",
+  name: "Dance Evolution",
+  shortName: "Dance Evolution",
+  tagline: "",
   logo: "",
-  phone: "+39 344 298 9263",
-  phoneHref: "tel:+393442989263",
-  whatsappHref: "https://wa.me/393442989263",
-  email: "asd.dancesportstudio@libero.it",
-  emailHref: "mailto:asd.dancesportstudio@libero.it",
-  instagramHref: "https://www.instagram.com/dancesport_studio",
-  facebookHref: "https://www.facebook.com/a.s.dDancesportStudio/",
-  mapsHref: "https://maps.google.com/?q=Corso+Italia+40+84098+Pontecagnano+Faiano+SA+Italy",
-  primaryLocation: "Corso Italia, 40",
-  secondaryLocation: "84098 Pontecagnano Faiano SA",
+  phone: "+39 328 667 3811",
+  phoneHref: "tel:+393286673811",
+  whatsappHref: "https://wa.me/393286673811",
+  email: "DanceEvolution2@gmail.com",
+  emailHref: "mailto:DanceEvolution2@gmail.com",
+  instagramHref: "",
+  facebookHref: "",
+  mapsHref: "https://maps.google.com/?q=Via+Tevere+40+84098+Pontecagnano+SA+Italy",
+  primaryLocation: "Via Tevere, 40",
+  secondaryLocation: "84098 Pontecagnano SA",
   cityLine: "Italy",
-  hours: "",
-  copyright: " 2026 A.S.D. Dancesport Studio",
+  hours:
+    "Monday: 9:30-10:30, 16:30-21:30\n" +
+    "Tuesday: 16:30-20:30\n" +
+    "Wednesday: 9:30-10:30, 16:30-21:30\n" +
+    "Thursday: 16:30-20:30\n" +
+    "Friday: 9:30-10:30, 16:30-21:30\n" +
+    "Saturday: Closed\n" +
+    "Sunday: Closed",
+  copyright: " 2026 Dance Evolution",
 }
 
 export const navLinks: NavLink[] = [
@@ -81,7 +88,7 @@ export const stats = [
 
 export const courseCategories: CourseCategory[] = [
   {
-    label: "Dancesport Studio",
+    label: "Dance Evolution",
     courses: [
       {
         title: "Ballo di Coppia",
@@ -109,9 +116,9 @@ export const courseCategories: CourseCategory[] = [
 ]
 
 export const featuredGalleryPhotos: { src: string; alt: string }[] = [
-  { src: "/dancesport/nostrimomenti.jpg", alt: "A.S.D. Dancesport Studio momento 1" },
-  { src: "/dancesport/nostrimomenti2.jpg", alt: "A.S.D. Dancesport Studio momento 2" },
-  { src: "/dancesport/nostrimomenti3.jpg", alt: "A.S.D. Dancesport Studio momento 3" },
+  { src: "/new/nostrimomenti1.jpg", alt: "Dance Evolution momento 1" },
+  { src: "/new/nostrimomenti2.jpg", alt: "Dance Evolution momento 2" },
+  { src: "/new/nostrimomenti3.jpg", alt: "Dance Evolution momento 3" },
 ]
 
 export const allGalleryPhotos = [
@@ -168,8 +175,8 @@ export const salaRitmoSchedule = salaArmoniaSchedule
 export const scheduleBookingServices = []
 
 export const scheduleContactInfo = {
-  address: "Corso Italia, 40, 84098 Pontecagnano Faiano SA, Italy",
-  phone: "+39 344 298 9263",
+  address: "Via Tevere, 40, 84098 Pontecagnano SA, Italy",
+  phone: "+39 328 667 3811",
 }
 
 export const pricingCards = [

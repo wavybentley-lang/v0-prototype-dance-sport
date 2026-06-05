@@ -264,7 +264,7 @@ export function ContactSection({
           <h3 className="mb-6 font-serif text-2xl font-bold text-foreground">Dove Siamo</h3>
           <div className="aspect-video w-full overflow-hidden rounded-sm border border-border md:aspect-[21/9]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.352978790837!2d14.876707000000001!3d40.6441489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133bddeec6390607%3A0xd7e94995d212edf2!2sA.S.D%20Dancesport%20Studio!5e0!3m2!1sen!2sit!4v1780685493605!5m2!1sen!2sit"
+              src="https://www.google.com/maps?q=Via%20Tevere%2C%2040%2C%2084098%20Pontecagnano%20SA%2C%20Italy&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}

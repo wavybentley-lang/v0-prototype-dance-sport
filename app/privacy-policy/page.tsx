@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { ChevronRight, Facebook, Instagram, Menu, Phone, X } from "lucide-react"
+import { ChevronRight, Menu, Phone, X } from "lucide-react"
 
 import { brand, navLinks as siteNavLinks } from "@/lib/site-config"
 
@@ -111,7 +111,6 @@ export default function PrivacyPolicyPage() {
               >
                 {brand.name}
               </p>
-              <p className="mt-2 text-[9px] font-semibold tracking-[0.28em] text-[#C9980A]/85 uppercase">{brand.tagline}</p>
             </div>
             <div className="flex flex-col gap-2.5">
               {navLinks.map((link) => (
@@ -169,7 +168,6 @@ export default function PrivacyPolicyPage() {
               <a href="/" className="mb-6 flex items-center gap-3">
                 <span className="font-serif text-3xl font-semibold tracking-wide text-[#F5EDD8]">{brand.name}</span>
               </a>
-              <p className="mt-4 max-w-[280px] text-sm leading-relaxed text-[#B8A080]">{brand.tagline}</p>
             </div>
 
             <div>
@@ -185,17 +183,6 @@ export default function PrivacyPolicyPage() {
               </ul>
             </div>
 
-            <div>
-              <h4 className="mb-6 text-sm font-semibold tracking-wider text-[#F5EDD8] uppercase">Seguici</h4>
-              <div className="flex gap-5">
-                <a href={brand.facebookHref} target="_blank" rel="noopener noreferrer" className="text-[#B8A080] transition-colors hover:text-[#C9980A]" aria-label="Facebook">
-                  <Facebook size={26} />
-                </a>
-                <a href={brand.instagramHref} target="_blank" rel="noopener noreferrer" className="text-[#B8A080] transition-colors hover:text-[#C9980A]" aria-label="Instagram">
-                  <Instagram size={26} />
-                </a>
-              </div>
-            </div>
           </div>
 
           <div className="border-t border-[#2A2010] pt-8 text-center text-xs text-[#B8A080]">{brand.copyright}</div>

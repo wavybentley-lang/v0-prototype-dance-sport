@@ -23,8 +23,8 @@ export function AboutSection({ isVisible, setSectionRef }: AboutSectionProps) {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm border border-border bg-secondary">
             <Image
-              src="/dancesport/chisiamo.jpg"
-              alt="A.S.D. Dancesport Studio"
+              src="/new/chisiamo.jpg"
+              alt="Dance Evolution"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
@@ -41,7 +41,7 @@ export function AboutSection({ isVisible, setSectionRef }: AboutSectionProps) {
                 Una scuola di danza dove ogni percorso nasce per aiutare ogni allievo a esprimere il proprio potenziale con energia, tecnica e personalita.
               </p>
               <p>
-                A.S.D. Dancesport Studio accoglie bambini, ragazzi e adulti in un ambiente dedicato alla crescita artistica e al piacere del ballo.
+                Dance Evolution accoglie bambini, ragazzi e adulti in un ambiente dedicato alla crescita artistica e al piacere del movimento.
               </p>
               <p>
                 La scuola propone percorsi di ballo sportivo e danza di coppia pensati per accompagnare ogni allievo con attenzione, ascolto e continuità.

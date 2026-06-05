@@ -91,7 +91,7 @@ export function ScheduleSection({ isVisible, setSectionRef }: AnimatedSectionPro
         </div>
 
         <div className="grid gap-6">
-          <ScheduleCard title="Orario Settimanale" subtitle="A.S.D. Dancesport Studio" schedule={salaArmoniaSchedule} />
+          <ScheduleCard title="Orario Settimanale" subtitle="Dance Evolution" schedule={salaArmoniaSchedule} />
         </div>
 
         <div className="mt-6 rounded-sm border border-border/80 bg-card p-5 text-center sm:p-6">

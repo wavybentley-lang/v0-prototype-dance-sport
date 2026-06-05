@@ -43,9 +43,6 @@ export function Navigation({
             >
               {brand.name}
             </span>
-            <span className="relative mt-2 self-end font-serif text-[0.95rem] leading-none text-white/80 italic sm:text-[1.05rem]">
-              {brand.tagline}
-            </span>
           </a>
 
           <div className="hidden items-center gap-8 lg:flex">
@@ -113,7 +110,6 @@ export function Navigation({
             >
               {brand.name}
             </p>
-            <p className="mt-3 font-serif text-[1.05rem] text-white/80 italic">{brand.tagline}</p>
           </div>
           <div className="relative flex flex-col gap-2.5">
             {navLinks.map((link) => (
