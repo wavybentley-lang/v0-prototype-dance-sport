@@ -9,7 +9,6 @@ import { CtaBanner } from "@/components/sections/cta"
 import { GallerySection } from "@/components/sections/gallery"
 import { HeroSection, StatsStrip } from "@/components/sections/hero"
 import { PricingSection } from "@/components/sections/schedule-pricing"
-import { TestimonialsSection } from "@/components/sections/testimonials"
 import { FloatingActions } from "@/components/site/floating-actions"
 import { Footer } from "@/components/site/footer"
 import { Navigation } from "@/components/site/navigation"
@@ -239,7 +238,6 @@ export default function DanceStudioTemplate() {
         enlargedPhoto={enlargedPhoto}
         setEnlargedPhoto={setEnlargedPhoto}
       />
-      <TestimonialsSection />
       <ContactSection
         isVisible={visibleSections.has("contatti")}
         setSectionRef={setSectionRef}

@@ -25,10 +25,10 @@ const dancingScript = Dancing_Script({
 })
 
 const siteUrl = 'https://v0-prototype-dance-sport.vercel.app'
-const siteName = 'Dance Evolution'
-const siteTitle = 'Dance Evolution | Scuola di danza a Pontecagnano'
+const siteName = 'A.S.D. Dancesport Studio'
+const siteTitle = 'A.S.D. Dancesport Studio | Scuola di ballo a Pontecagnano Faiano'
 const siteDescription =
-  'Dance Evolution e una scuola di danza a Pontecagnano con corsi, lezioni e attivita per diversi livelli.'
+  'A.S.D. Dancesport Studio e una scuola di ballo diretta da Jessica Pellegrino a Pontecagnano Faiano.'
 const ogImage = `${siteUrl}/dancesport/og.jpg`
 
 export const metadata: Metadata = {
@@ -40,10 +40,10 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   keywords: [
-    'Dance Evolution',
-    'scuola di danza Pontecagnano',
-    'dance studio Pontecagnano',
-    'Via Tevere Pontecagnano',
+    'A.S.D. Dancesport Studio',
+    'scuola di ballo Pontecagnano Faiano',
+    'dance studio Pontecagnano Faiano',
+    'Corso Italia Pontecagnano Faiano',
   ],
   authors: [{ name: siteName }],
   creator: siteName,
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
         secureUrl: ogImage,
         width: 1200,
         height: 630,
-        alt: 'Dance Evolution - Scuola di danza a Pontecagnano',
+        alt: 'A.S.D. Dancesport Studio - Scuola di ballo a Pontecagnano Faiano',
         type: 'image/jpeg',
       },
     ],
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: ogImage,
-        alt: 'Dance Evolution - Scuola di danza a Pontecagnano',
+        alt: 'A.S.D. Dancesport Studio - Scuola di ballo a Pontecagnano Faiano',
       },
     ],
   },

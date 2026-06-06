@@ -25,7 +25,7 @@ export function HeroSection() {
       <div
         className="absolute inset-y-0 right-0 z-0 w-full [background-position:center_8%] sm:[background-position:center_15%] lg:w-[62%]"
         style={{
-          backgroundImage: "url('/new/hero.jpg')",
+          backgroundImage: "url('/dancesport/hero1.jpg')",
           backgroundPosition: "center 15%",
           backgroundSize: "cover",
         }}

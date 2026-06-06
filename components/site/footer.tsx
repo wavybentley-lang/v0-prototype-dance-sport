@@ -41,6 +41,8 @@ export function Footer({ navLinks }: { navLinks: NavLink[] }) {
             <ul>
               <FooterContact icon={<Phone size={14} />} href={brand.phoneHref} text={brand.phone} />
               <FooterContact icon={<Mail size={14} />} href={brand.emailHref} text={brand.email} />
+              <FooterContact icon={<span className="inline-flex h-3.5 w-3.5 items-center justify-center text-[10px] font-bold">f</span>} href={brand.facebookHref} text="Facebook" />
+              <FooterContact icon={<span className="inline-flex h-3.5 w-3.5 items-center justify-center text-[9px] font-bold uppercase">ig</span>} href={brand.instagramHref} text="Instagram" />
             </ul>
           </FooterColumn>
 

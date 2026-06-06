@@ -73,46 +73,9 @@ function ScheduleCard({ title, subtitle, schedule }: { title: string; subtitle: 
 }
 
 export function ScheduleSection({ isVisible, setSectionRef }: AnimatedSectionProps) {
-  return (
-    <section
-      id="orari"
-      ref={(element) => setSectionRef("orari", element)}
-      style={{ background: "radial-gradient(ellipse at 15% 50%, #111111 0%, #080808 60%, #0F0F0F 100%)" }}
-      className={`py-20 transition-all duration-700 sm:py-28 ${
-        isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-      }`}
-    >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-16 px-4 text-left lg:px-0 lg:text-center">
-          <h2 className="mb-4 text-left font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-center">Orari dei Corsi</h2>
-          <p className="max-w-none text-lg text-pretty text-muted-foreground lg:mx-auto lg:max-w-2xl">
-            Consulta gli orari della scuola e contattaci per conoscere la disponibilita dei corsi
-          </p>
-        </div>
-
-        <div className="grid gap-6">
-          <ScheduleCard title="Orario Settimanale" subtitle="Dance Evolution" schedule={salaArmoniaSchedule} />
-        </div>
-
-        <div className="mt-6 rounded-sm border border-border/80 bg-card p-5 text-center sm:p-6">
-          <h3 className="font-serif text-xl font-bold text-primary">Servizi su prenotazione</h3>
-          <div className="mt-4 grid gap-3 text-sm font-medium text-foreground md:grid-cols-3">
-            {scheduleBookingServices.map((service) => (
-              <div key={service} className="border-b border-border/30 pb-3 last:border-0 md:border-b-0 md:border-r md:last:border-r-0 md:pb-0">
-                {service}
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <p className="mt-6 text-center text-sm leading-relaxed text-muted-foreground">
-          {scheduleContactInfo.address}
-          <br />
-          {scheduleContactInfo.phone}
-        </p>
-      </div>
-    </section>
-  )
+  void isVisible
+  void setSectionRef
+  return null
 }
 
 export function PricingSection({ isVisible, setSectionRef }: AnimatedSectionProps) {
